@@ -25,7 +25,7 @@ A comprehensive, role-based financial and student management web application des
 ## 🚀 Live Demo
 
 Experience the live application here:  
-👉 **[SEC CSE Society Portal]([https://sec-cse-society.netlify.app/])**
+👉 **[https://sec-cse-society.netlify.app/]**
 
 ---
 
