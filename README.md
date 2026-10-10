@@ -1,16 +1,40 @@
-# React + Vite
+# 🏛️ SEC CSE Society Financial Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A comprehensive, role-based financial and student management web application designed specifically for Departmental Societies (e.g., SEC CSE Society). Built with React, Vite, and Firebase.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
 
-## React Compiler
+- **🔐 Role-Based Access Control (RBAC):**
+  - **Treasurer:** Full permissions to add, edit, and delete financial transactions, student records, payables, and manage user roles.
+  - **Viewer (User):** Read-only access to view ledgers, dashboard statistics, and student directories securely.
+- **📊 Real-time Financial Dashboard:** Tracks total income, total expenses, net balance (profit/loss), and category-wise expense distribution.
+- **📝 Transaction Ledger & Cash Memos:** 
+  - Sequential running balance calculations.
+  - Direct image uploads for cash memos via ImgBB integration.
+  - Notepad notes and voucher remarks tracking.
+- **🎓 Student Directory & Bulk Semester Promotion:**
+  - Individual fee tracking (Paid vs. Due fees based on semester requirements).
+  - Excel/CSV upload support for bulk student imports.
+  - **Bulk Semester Promotion:** Select multiple students and promote them to the next semester simultaneously.
+- **💳 Personal Advances & Payables (Owed Money):** Dedicated ledger to track personal funds advanced or loaned by members to the society.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Experience the live application here:  
+👉 **[SEC CSE Society Portal]([YOUR_LIVE_URL_HERE](https://sec-cse-society.netlify.app/))**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js (Vite), React Router DOM
+- **Database & Auth:** Firebase Firestore & Firebase Authentication
+- **File Handling:** ImgBB API (for image uploads), SheetJS / XLSX (for Excel processing)
+- **Styling:** Custom Modern CSS & Inline Flex/Grid Layouts
+
+---
+
